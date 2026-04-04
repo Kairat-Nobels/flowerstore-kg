@@ -27,7 +27,7 @@ const CartItem = (props) => {
                 <span className='px-2'>{quantity}</span>
 
                 <button className="px-2 quantity-button"
-                    onClick={() => dispatch(incrementQuantity(item.id))}>
+                    onClick={() => dispatch(incrementQuantity(item?.id))}>
                     +
                 </button>
             </div>

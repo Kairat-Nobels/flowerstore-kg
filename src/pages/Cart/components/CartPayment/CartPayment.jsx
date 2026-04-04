@@ -112,7 +112,15 @@ const CartPayment = () => {
                                                     </div>
                                                 ) : (
                                                     cart.map((item) => (
-                                                        <CartItem key={item.id} {...item} />
+                                                        <CartItem
+                                                            key={item.id}
+                                                            item={item}
+                                                            quantity={item.quantity}
+                                                            image={item.image}
+                                                            title={item.title}
+                                                            category={item.category}
+                                                            price={item.price}
+                                                        />
                                                     ))
                                                 )}
                                             </div>
