@@ -17,7 +17,7 @@ const PaymentModal = ({ isOpen, onClose, promoApplied, discount }) => {
   const discountedPrice = Math.round(getTotalPrice() * (1 - (discount || 0)));
 
   const orderText =
-    "Салам! Заказ боюнча жазып жатам. Заказдын маалыматы:\n" +
+    "Саламатсызбы! Заказ боюнча жазып жатам. Заказдын маалыматы:\n" +
     cart
       .map(
         (item, idx) =>
