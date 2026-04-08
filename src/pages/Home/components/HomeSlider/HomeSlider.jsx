@@ -42,7 +42,7 @@ const HomeSlider = () => {
         naturalSlideHeight={40}
         totalSlides={slides.length}
         infinite
-        isPlaying
+        // isPlaying
         interval={4000}
       >
         <Slider className="slider-content">

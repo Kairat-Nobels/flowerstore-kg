@@ -40,12 +40,14 @@
 
     // 🔥 как у кнопок
     background: linear-gradient(135deg, #7ca37d, #5d8660);
-
     position: relative;
     padding-bottom: 20px !important;
     width: 24% !important;
     border: none;
     transition: 0.3s ease;
+    @media(max-width: 600px) {
+        width: 90% !important;
+    }
 
     &:hover {
         box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);

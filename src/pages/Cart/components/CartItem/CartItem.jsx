@@ -14,11 +14,11 @@ const CartItem = (props) => {
                     src={image}
                     className="img-fluid rounded-3" alt="Cotton T-shirt" />
             </div>
-            <div className="col-md-3 col-lg-3 col-xl-3">
+            <div className="items-desc-mob col-md-3 col-lg-3 col-xl-3">
                 <h6 className="text-muted">{category}</h6>
                 <h6 className="text-black mb-0">{title}</h6>
             </div>
-            <div className="col-md-3 col-lg-3 col-xl-2 d-flex align-items-center">
+            <div className="items-desc-mob-bottom col-md-3 col-lg-3 col-xl-2 d-flex align-items-center">
                 <button className="quantity-button px-2"
                     onClick={() => dispatch(decrementQuantity(item.id))}>
                     -
@@ -31,8 +31,11 @@ const CartItem = (props) => {
                     +
                 </button>
             </div>
-            <div className="col-md-3 col-lg-2 p-0">
+            <div className="mob-price col-md-3 col-lg-2 p-0">
                 <h6 className="mb-0">{price * quantity}.00 сом</h6>
+                <div className="col-md-1 col-lg-1 col-xl-1 text-end-mob">
+                    <button onClick={() => dispatch(removeItem(item.id))} className='cart-trash'><IoIosCloseCircleOutline /></button>
+                </div>
             </div>
             <div className="col-md-1 col-lg-1 col-xl-1 text-end">
                 <button onClick={() => dispatch(removeItem(item.id))} className='cart-trash'><IoIosCloseCircleOutline /></button>
