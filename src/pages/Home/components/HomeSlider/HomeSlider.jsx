@@ -13,19 +13,19 @@ import { useNavigate } from "react-router-dom";
 
 const slides = [
   {
-    image: "https://www.studiofloristic.ru/files/blog/new-year-2023-2.jpg",
+    image: "https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=1974&auto=format&fit=crop",
     title: "Гүлдөр дүйнөсү",
     description: "Ар кандай учур үчүн жаңы жана кооз гүлдөр. Жакындарыңызды кубантыңыз.",
     button: "Каталогду көрүү"
   },
   {
-    image: "https://st3.depositphotos.com/8186610/32649/i/450/depositphotos_326495872-stock-photo-sexy-woman-holding-big-bouquet.jpg",
+    image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?q=80&w=1974&auto=format&fit=crop",
     title: "Сүйүктүүлөр үчүн букеттер",
     description: "Ар бир кардар үчүн өзгөчө жасалган гүл композициялары.",
     button: "Букет тандоо"
   },
   {
-    image: "https://pandora.airun.one/media/cache/42/c4/42c4f9160128ebee5df7402eb82989cd.jpg",
+    image: "https://i.pinimg.com/736x/3f/5c/b2/3f5cb2d47f911fa3334f96e730c3c61c.jpg",
     title: "Шаар боюнча жеткирүү",
     description: "Гүлдөрдү тез жана коопсуз жеткирүү кызматын сунуштайбыз.",
     button: "Заказ берүү"
